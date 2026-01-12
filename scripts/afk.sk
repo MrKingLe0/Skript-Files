@@ -1,0 +1,25 @@
+# This is a simple afk area skript, using world guard. 
+# Make a region name "afk" then upload this skript and reload the skript file to use it.
+
+
+every 10 minutes:
+ loop all players:
+  if "%region at loop-player%" contains "afk":
+   console command "/eco give %loop-player% 200"
+   send "&8[&3&l!&8] &3&lAFK &8→ &7You have been given &f200x Money &7for being AFK!" to loop-player
+
+every 60 minutes:
+ loop all players:
+  if "%region at loop-player%" contains "afk":
+   console command "/excellentcrates:crate key give %loop-player% afk 1" #  u can change or remove this line if u dont have afk crates
+   send "&8[&3&l!&8] &3&lAFK &8→ &7You have been given &f1x AFK Key &7for being AFK!" to loop-player
+
+on region enter:
+ wait 2 ticks
+ if "%region at player%" contains "afk":
+  send "&8[&3&l!&8] &3&lAFK &8→ &aYou will now receive afk rewards!"
+
+on region exit:
+ if "%region at player%" contains "afk":
+  send "&8[&3&l!&8] &3&lAFK &8→ &cYou will no longer receive afk rewards!"
+
