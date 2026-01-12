@@ -1,4 +1,4 @@
-# Skript-Stuffs
+# Skript-Files
 ## A bunch of skript files for Skript plugin for Minecraft Servers!
 
 **Make sure to read the instructions before using those, or it may not work correctly!** 
