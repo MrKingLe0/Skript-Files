@@ -12,10 +12,7 @@ See each file's top comments for **required addons**, **permissions** and **conf
 ## Installation
 
 1. Make sure you have **Skript** installed (latest recommended version)
-2. Some Need to Install required addons:
-   - SkBee
-   - SkriptParticles
-   - etc. (check each script's header)
+2. Install required addons (if there are any, check each script's header)
 3. Drag & drop the `.sk` files into  
    `plugins/Skript/scripts/`
 4. Run in-game or console:  
