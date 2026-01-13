@@ -1,0 +1,21 @@
+
+
+on join:
+	wait 5 seconds
+	send title "&6&lWelcome Back %player% !" with subtitle "&e&lGlad to see you again!" for 40 ticks, 30 ticks, 10 ticks
+	wait 2 seconds
+	spawn firework at location of player
+	wait 2 seconds
+	say_message("&f&l[&2&l+&f&l]&e %player% &aJoined the server!")
+on quit:
+	wait 3 seconds
+	say_message("&f&l[&4&l-&f&l] %player% &cLeft the server!") 
+
+on first join:
+	set join message to "Oh look, %player% joined for the first time! Say hi to %player%"
+	wait 5 seconds
+	send title "&6&lWelcome to [your server name]" with subtitle "&e&lWe hope that you will have a great time here!, &e%player%&f!" for 40 ticks, 30 ticks, 10 ticks
+	wait 1 seconds
+  spawn firework at location of player
+	wait 2 seconds
+	say_message("&f&l[&2&l+&f&l]&e %player% &aJoined the server for the first time! &bSay hi to %player%")
