@@ -28,7 +28,7 @@ See each file's top comments for **required addons**, **permissions** and **conf
 
 ## ❓ Questions or Suggestions
 
-- Message me on **Discord**, Username:**king_le0_**
+- Dm me on **Discord**, Username: **king_le0_**
 - Feel free to **fork** & **PR** improvements!
 
 ## 📜 License
